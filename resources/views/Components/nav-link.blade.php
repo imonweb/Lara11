@@ -1,4 +1,4 @@
-{{-- <a {{ $attributes }}>{{ $slot }}</a> --}}
+<a {{ $attributes }}>{{ $slot }}</a>
 
 @props(['active' => false])
 
