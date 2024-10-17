@@ -4,7 +4,7 @@
   </x-slot:heading>
   
   @foreach ($jobs as $job)
-    {{-- <li>{{ $job['title'] }}</li> --}}
+    <li>{{ $job['title'] }}</li>
 
   @endforeach
 </x-layout>
